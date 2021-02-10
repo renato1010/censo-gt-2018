@@ -12,6 +12,9 @@ logs
 results
 tmp
 
+# base data
+data_ine
+
 # Coverage reports
 coverage
 
