@@ -1,11 +1,12 @@
 {
   "name": "censo_gt_2018_api",
   "version": "1.0.0",
-  "description": "",
+  "description": "API for Guatemala 2018 census data",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint '*/**/*.{js,ts}' --quiet --fix"
+    "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix",
+    "build-ts": "tsc"
   },
   "keywords": [
     "guatemala",
