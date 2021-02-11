@@ -1,4 +1,3 @@
-import { dirname } from 'path';
 import { join as pathJoin } from 'path';
 import papa from 'papaparse';
 import { read } from './file';
