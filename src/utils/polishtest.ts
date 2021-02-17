@@ -1,5 +1,4 @@
 import { join as pathJoin } from 'path';
-
 import { exportJsonFile } from './exportJsonFile';
 import poblacion from './output/poblacion.json';
 
