@@ -4,4 +4,7 @@ export const PoblacionResolvers: IResolvers = {
   Query: {
     poblacion: () => 'Query.poblacion',
   },
+  Mutation: {
+    root: () => 'Mutation.root',
+  },
 };

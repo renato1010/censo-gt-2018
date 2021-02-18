@@ -2,7 +2,8 @@ import { config } from 'dotenv';
 config();
 import express, { Application } from 'express';
 import { ApolloServer } from 'apollo-server-express';
-import { typeDefs, resolvers } from './graphql';
+import { resolvers } from './graphql';
+import { schemaArray as typeDefs } from './graphql/typeDefs';
 import { connectDatabase } from './database';
 
 const port = process.env.PORT;
