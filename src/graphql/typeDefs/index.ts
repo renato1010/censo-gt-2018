@@ -1,2 +1,4 @@
 import { root } from './root';
-export const schemaArray = [root];
+import { poblacion } from './poblacion';
+
+export const schemaArray = [poblacion, root];
