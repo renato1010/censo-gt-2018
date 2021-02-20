@@ -23,7 +23,7 @@ const departamentos = [
   'Jutiapa',
 ] as const;
 
-type Departamento = typeof departamentos[number];
+export type Departamento = typeof departamentos[number];
 
 export interface DeptoPoblacion {
   codigo: number;
