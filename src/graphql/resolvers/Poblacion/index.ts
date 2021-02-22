@@ -37,10 +37,9 @@ export const PoblacionResolvers: IResolvers = {
     },
     poblacionPorDepto: async (
       _parent: undefined,
-      { input }: { input: { departamento: EnumDepto } },
+      { input: { departamento } }: { input: { departamento: EnumDepto } },
       { db }: { db: Database }
     ): Promise<DeptoPoblacion> => {
-      const { departamento } = input;
       const searchDepto = mapEnumToDepartamento(departamento);
       const poblacionByDep = await db.poblacion.findOne({ departamento: searchDepto });
       if (!poblacionByDep) {
