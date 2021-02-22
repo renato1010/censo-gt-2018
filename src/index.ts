@@ -1,6 +1,6 @@
 import { config } from 'dotenv';
 config();
-import express, { Application } from 'express';
+import express, { Application, Request, Response } from 'express';
 import { ApolloServer } from 'apollo-server-express';
 import { resolvers } from './graphql';
 import { schemaArray as typeDefs } from './graphql/typeDefs';
@@ -12,7 +12,7 @@ const mount = async (app: Application) => {
   const server = new ApolloServer({
     typeDefs,
     resolvers,
-    context: ({ req, res }) => ({ db, req, res }),
+    context: ({ req, res }: { req: Request; res: Response }) => ({ db, req, res }),
   });
 
   server.applyMiddleware({ app, path: '/api' });
