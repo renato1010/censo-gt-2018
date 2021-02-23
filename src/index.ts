@@ -3,7 +3,7 @@ config();
 import express, { Application, Request, Response } from 'express';
 import { ApolloServer } from 'apollo-server-express';
 import { resolvers } from './graphql';
-import { schemaArray as typeDefs } from './graphql/typeDefs';
+import { mergedTypesDefs as typeDefs } from './graphql/typeDefs';
 import { connectDatabase } from './database';
 
 const port = process.env.PORT;

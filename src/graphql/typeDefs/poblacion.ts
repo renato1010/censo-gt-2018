@@ -1,6 +1,4 @@
-import { gql } from 'apollo-server-express';
-
-export const poblacion = gql`
+export const poblacion = `
   enum DepartamentoEnum {
     Guatemala
     El_Progeso

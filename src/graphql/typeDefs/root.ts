@@ -1,6 +1,4 @@
-import { gql } from 'apollo-server-express';
-
-export const root = gql`
+export const root = `
   type Query {
     poblacion: Poblacion!
     poblacionPorDepto(input: DeptoInput!): PoblacionByDepto!

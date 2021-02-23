@@ -1,4 +1,6 @@
+import { mergeTypeDefs } from '@graphql-tools/merge';
 import { root } from './root';
 import { poblacion } from './poblacion';
 
-export const schemaArray = [poblacion, root];
+const schemaArray = [poblacion, root];
+export const mergedTypesDefs = mergeTypeDefs(schemaArray);
