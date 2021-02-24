@@ -9,12 +9,12 @@
     Sobre <a href="https://nodejs.org/en/">Node.js</a> con <a href="https://www.typescriptlang.org/">Typescript</a> 
   </p>
 
-  <a href="https://epicreact.dev">
+  <div align="center">
     <img
       alt="de CSV a GraphQL"
       src="https://icons-images.s3.us-east-2.amazonaws.com/censo-gt-2018/main_pic_censo_header1.png"
     />
-  </a>
+  </div>
 </div>
 
 <hr />
