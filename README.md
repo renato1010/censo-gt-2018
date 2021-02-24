@@ -55,6 +55,7 @@ donde `process.env.DB_USER` son variables de ambiente (env vars) que se registra
 ```bash
 git clone https://github.com/renato1010/censo-gt-2018
 cd censo-gt-2018
+npm install
 npm start
 ```
 
