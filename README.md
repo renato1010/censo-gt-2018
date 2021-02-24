@@ -21,12 +21,25 @@
 
 ## Prerequisites
 
-- Conocimientos de `Javascript` moderno o `Node.js`.
+- Conocimientos de `JavaScript` moderno y `Node.js`.
 - Conocimiento de `Express.js` es util pero no indispensable
 - Planeamos impartir mentorias de `Typescript`, `GraphQL`, `MongoDB`
+
+## Stack del proyecto
+
+![stack-image](https://icons-images.s3.us-east-2.amazonaws.com/censo-gt-2018/censo-gt-2018_stack1.png)
 
 ## Requerimientos del sistema
 
 - [git][git] v2.13 or greater
 - [NodeJS][node] `14 || 15`
 - [npm][npm] v6 o mas reciente
+
+## Arrancar el proyecto en dev
+
+```
+git clone https://github.com/renato1010/censo-gt-2018
+cd censo-gt-2018
+```
+
+<h2><mark>Este documento es una obra en proceso </mark>🤙🏼</h2>
