@@ -1,10 +1,10 @@
 <div>
-  <h1 align="center">GraphQL API para el censo de Guatemala 🇬🇹 2018</h1>
+  <h1 align="center">GraphQL API data de el censo de Guatemala 🇬🇹 2018</h1>
   <strong>
     GraphQL API para el censo de poblacion de Guatemala año 2018.
   </strong>
   <p>
-    A partir de una coleccion de<a href="https://www.censopoblacion.gt/explorador">hojas en excel</a>
+    A partir de una coleccion de <a href="https://www.censopoblacion.gt/explorador">hojas en excel</a>
     creamos un <a href="https://graphql.org/">GraphQL</a> API como middleware de <a href="https://www.apollographql.com/docs/apollo-server/">Apollo Server</a><br>
     Sobre <a href="https://nodejs.org/en/">Node.js</a> con <a href="https://www.typescriptlang.org/">Typescript</a> 
   </p>
