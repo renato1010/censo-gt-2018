@@ -1,8 +1,12 @@
 {
-  "name": "censo_gt_2018_api",
-  "version": "1.0.0",
+  "name": "censo-gt-2018-api",
+  "version": "0.1",
   "description": "API for Guatemala 2018 census data",
   "main": "index.js",
+  "engines": {
+    "node": "14 || 15",
+    "npm": ">=6"
+  },
   "scripts": {
     "start": "nodemon src/index.ts",
     "test": "jest",
@@ -15,8 +19,8 @@
     "censo",
     "2018"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Renato Perez <contact@renatoperez.dev> (https://renatoperez.dev)",
+  "license": "MIT",
   "devDependencies": {
     "@tsconfig/node14": "^1.0.0",
     "@types/eslint": "^7.2.6",
