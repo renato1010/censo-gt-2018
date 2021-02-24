@@ -12,4 +12,4 @@ codigo,departamento,poblacion_total,hombres,mujeres
 
 A partir de aqui seguiremos el siguiete diagrama:
 
-![Data Piping](https://icons-images.s3.us-east-2.amazonaws.com/censo-gt-2018/data_pipe_diagram1.png)
+![Data Piping](https://icons-images.s3.us-east-2.amazonaws.com/censo-gt-2018/data_pipe_1.png)
