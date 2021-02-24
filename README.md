@@ -25,6 +25,21 @@
 - Conocimiento de `Express.js` es util pero no indispensable
 - Planeamos impartir mentorias de `Typescript`, `GraphQL`, `MongoDB`
 
+## Base de datos Cloud
+ - El proyecto implementa como base de datos una instancia 'gratis' de MongoDB Atlas
+Aqui un recurso de como se puede acceder a MongoDB atlas instancia gratuita  
+[Getting your free MongoDB atlas cluster](https://www.youtube-nocookie.com/embed/rPqRyYJmx2g)
+ - Al tener un cluster de Atlas podra formar un esquema de coneccion semejante a el siguiente:
+```typescript
+const user = process.env.DB_USER;
+const password = process.env.DB_USER_PASSWORD;
+const dbName = process.env.DB_NAME;
+const clusterName = process.env.CLUSTER_NAME;
+
+const dbConnectionURL = `mongodb+srv://${user}:${password}@${clusterName}.h8rwn.mongodb.net/${dbName}?retryWrites=true&w=majority`;
+```
+donde `process.env.DB_USER` son variables de ambiente (env vars) que se registran en un archivo .env
+
 ## Stack del proyecto
 
 ![stack-image](https://icons-images.s3.us-east-2.amazonaws.com/censo-gt-2018/censo-gt-2018_stack1.png)
@@ -37,11 +52,14 @@
 
 ## Arrancar el proyecto en dev
 
-```
+```bash
 git clone https://github.com/renato1010/censo-gt-2018
 cd censo-gt-2018
 npm start
 ```
+
+## Extras
+ - [Procesamiento de data .csv => MongoDB collection](data-piping.md)
 
 <h2><mark>Este documento es una obra en proceso </mark>🤙🏼</h2>
 
