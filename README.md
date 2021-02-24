@@ -19,7 +19,7 @@
 
 <hr />
 
-## Prerequisites
+## Prerequisitos
 
 - Conocimientos de `JavaScript` moderno y `Node.js`.
 - Conocimiento de `Express.js` es util pero no indispensable
