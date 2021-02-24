@@ -40,6 +40,13 @@
 ```
 git clone https://github.com/renato1010/censo-gt-2018
 cd censo-gt-2018
+npm start
 ```
 
 <h2><mark>Este documento es una obra en proceso </mark>🤙🏼</h2>
+
+<!-- prettier-ignore-start -->
+[npm]: https://www.npmjs.com/
+[node]: https://nodejs.org
+[git]: https://git-scm.com/
+<!-- prettier-ignore-end -->
